@@ -21,7 +21,9 @@ The exact train/validation/test splits used in our paper are fully provided in:
 
 2. CASIA       - pro_CASIA /
 
-3. EMODB      - pro_EMODB /
+3.CASIA-speaker -  CASIA-speaker /
+
+4. EMODB      - pro_EMODB /
 
 Note: The dataset split is random. Running the script will produce different splits,
 but the splitting procedure is identical to our experimental setting.

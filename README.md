@@ -21,7 +21,7 @@ The exact train/validation/test splits used in our paper are fully provided in:
 
 2. CASIA       - pro_CASIA /
 
-3.CASIA-speaker -  CASIA-speaker /
+3. CASIA-speaker -  CASIA-speaker /
 
 4. EMODB      - pro_EMODB /
 

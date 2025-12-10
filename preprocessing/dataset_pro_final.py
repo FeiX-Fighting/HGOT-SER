@@ -4,7 +4,7 @@ import torch
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 import numpy as np
-# path = r'F:\01代码\DST_window_20240416\DST_master\data_test\Session\Session1.pkl'
+# 
 #
 # with open(path, 'rb') as f:
 #     data = pickle.load(f)
@@ -72,12 +72,3 @@ class mode_dataset(Dataset):
         return self.len
 
 
-# mode_dataset1 = mode_dataset(r'F:\01代码\DST_window_20240416\DST_master\data_test\Session',mode_number=1,mode='train')
-# trainDataset = DataLoader(dataset=mode_dataset(r'/root/autodl-tmp/IEMOCAP',mode_number=1,mode='test'),batch_size=16,shuffle=True,drop_last = False)
-# for step, (datas_wavlm,datas_mfcc,labels) in enumerate(trainDataset):
-#     datas = datas_wavlm
-#     labels = labels
-#     print(type(datas))
-#     print(type(labels))
-
-#     print(datas.shape,labels.shape)

@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
+
 """
-单人一键运行版——路径全部写死，用法同以前：
-python extract.py
+IEMOCAP
 """
 import os
 import json
@@ -13,13 +12,13 @@ import torch
 import librosa
 from WavLM.WavLM import WavLM, WavLMConfig
 
-# =========  只改这一坨就行  ==========
+# =========  路径  ==========
 OUT_DIR = r"output"          # 当前文件夹下的 output 子文件夹
 Path(OUT_DIR).mkdir(exist_ok=True)
 WAVLM_CKPT = r"WavLM-Large.pt"
 LABEL_JSON = r"label_1.json"
 WAV_DIR = r"Audio_16k"
-#OUT_DIR = r"."               # 想换输出目录就改这里
+#OUT_DIR = r"."               # 输出目录
 LEN_WAV = 96000             # 采样点长度
 # =====================================
 
@@ -92,4 +91,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()

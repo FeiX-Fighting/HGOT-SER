@@ -137,13 +137,7 @@ for pkl_file in pkl_files:
 
 
 
-    #
-    #
-    # print("a:",len(filename_train))
-    # # print("a1",len(label_train))
-    #
-    # print("b",len(filename_test))
-    # # print("b1",len(label_test))
+
 
 
 

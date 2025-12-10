@@ -37,7 +37,8 @@ def classify_wav_files(root_folder, output_folder_name):
     print(f"Processing complete. All classified folders are saved in {main_output_folder}")
 
 # 替换为你的根文件夹路径
-root_folder_path = r"E:\数据库\EMODB数据库\wav"
+root_folder_path = r"E:\EMODB\wav"
 # 替换为你想要创建的大文件夹的名字
 output_folder_name = "classified_wav_files"
+
 classify_wav_files(root_folder_path, output_folder_name)
